@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("https://ik.imagekit.io/munchery/blog/tr:w-768/the-origins-of-biryani-a-deep-dive-and-five-recipes.jpeg") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+  }
+
+  .container {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  input {
+    padding: 12px 20px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  button {
+    background: linear-gradient(90deg, #6200ff, #0077ff);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    max-width: 200px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: linear-gradient(90deg, #007bff, #5500ff);
+    transform: scale(1.05);
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
